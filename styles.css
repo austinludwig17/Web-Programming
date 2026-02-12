@@ -1,0 +1,25 @@
+/* Universal selector (*) */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	padding: 20px;
+}
+
+/* type selector */
+button {
+	color: black;
+}
+
+/* Hover effect */
+button:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+.highlight {
+	padding: 20px;
+}
