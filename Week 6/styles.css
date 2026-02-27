@@ -1,0 +1,36 @@
+.age {
+    display: inline-block;
+    padding: 3%;
+    align-items: center;
+    margin: 1%;
+    border-width: 5px;
+}
+
+.prime {
+    display: inline-block;
+    padding: 3%;
+    align-items: center;
+    margin: 1%;
+}
+
+.age, .prime {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 5px;
+    box-shadow: 10px 10px #585858;
+    background-color: silver;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.themeToggle {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}

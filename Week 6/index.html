@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Age Prime Checker</title>
+</head>
+
+<div class="themeToggle">
+        <label>Check to turn on dark mode<input type="checkbox" id="checkBox" onclick="changeTheme()"/></label>
+    </div>
+
+<body>
+    
+
+    <div class="age">
+        <h1> Age Checker</h1>
+        <label> Input your Age</label>
+        <input type="number" id="birthYear">
+        <button onclick="calculateAge()">Calculate</button>
+        <p>You were born in : <label id="yearBorn"></label></p> 
+    </div>
+        
+    <div class="prime">
+        <h1> Prime Number Checker</h1>
+        <label> Input number</label>
+        <input type="number" id="primeNumber">
+        <button onclick="displayPrime()">Calculate</button>
+        <p>Is it prime? : <label id="primeNumberText"></label></p>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
