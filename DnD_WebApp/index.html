@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D&D Character Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- Top Header -->
+    <header class="site-header">
+      <h1>D&D Character Creator</h1>
+      <p>Create, manage, and save your character sheet</p>
+    </header>
+
+    <!-- Navbar Tabs -->
+    <nav class="tab-navbar">
+      <a href="index.html" class="tab-link active">Ability Scores</a>
+      <a href="combat.html" class="tab-link">Combat</a>
+      <a href="Skills.html" class="tab-link">Skills</a>
+      <a href="inventory.html" class="tab-link">Inventory</a>
+      <a href="notes.html" class="tab-link">Notes</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="content-panel">
+
+      <section class="section-header">
+        <h2>Ability Scores</h2>
+        <p>
+          Set your core character stats and apply any modifiers below.
+        </p>
+      </section>
+
+      <section class="card-grid">
+        <div class="info-card">
+            <h3>Strength</h3>
+            <p>Controls physical power, lifting, and melee force.</p>
+            <form action="/action_page.php" class="stat-box">
+                <input type="text" name="strength" class="stat-input">
+            </form>
+        </div>
+
+        <div class="info-card">
+          <h3>Dexterity</h3>
+          <p>Controls agility, reflexes, and ranged attacks.</p>
+          <form action="/action_page.php" class="stat-box">
+                <input type="text" name="Dexterity" class="stat-input">
+            </form>
+        </div>
+
+        <div class="info-card">
+          <h3>Constitution</h3>
+          <p>Controls health, endurance, and toughness.</p>
+          <form action="/action_page.php" class="stat-box">
+                <input type="text" name="Constitution" class="stat-input">
+            </form>
+        </div>
+
+        <div class="info-card">
+          <h3>Intelligence</h3>
+          <p>Controls reasoning, memory, and learned knowledge.</p>
+          <form action="/action_page.php" class="stat-box">
+                <input type="text" name="Intelligence" class="stat-input">
+            </form>
+        </div>
+
+        <div class="info-card">
+          <h3>Wisdom</h3>
+          <p>Controls awareness, insight, and perception.</p>
+          <form action="/action_page.php" class="stat-box">
+                <input type="text" name="Wisdom" class="stat-input">
+            </form>
+        </div>
+
+        <div class="info-card">
+          <h3>Charisma</h3>
+          <p>Controls confidence, presence, and social influence.</p>
+          <form action="/action_page.php" class="stat-box">
+                <input type="text" name="Charisma" class="stat-input">
+            </form>
+        </div>
+      </section>
+
+    </main>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
